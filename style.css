@@ -1,0 +1,148 @@
+
+#nav ul {
+    color:black;
+    float: left;
+    font-family: "Raleway light", Calibri, sans-serif; 
+    list-style-type:none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+#nav ul li {
+    margin: 0 15px;
+    float: left;
+}
+#nav ul li a {
+    display: block;
+    clear: left;   
+    text-decoration: none;
+    color: darkgray;
+}
+#nav ul li a:hover{
+    color: black;
+}
+
+footer{
+    color:darkgray;
+    font-family: "Raleway", Calibri, sans-serif; 
+    text-decoration: none;
+    margin: 0 1em;clear: left;
+}
+
+/* start index page*/
+
+#title{
+    color:black;
+    font-size: 2em;
+    margin: 1em 1em;
+    font-family: "Raleway ", Calibri, sans-serif; 
+    font-weight: inherit;
+}
+
+#light{
+    float: right;
+    position: relative;
+    margin: 0;
+    bottom: 250px;
+    right: 670px;
+    
+    
+}
+#contact{
+    color:black;
+    position: absolute;
+    font-family: "Raleway", Calibri, sans-serif;
+    padding: 1em;
+    margin: 1em 1em;
+    vertical-align: baseline;
+}
+#linkedin a{
+    color:darkgray;
+    font-family: "Raleway", Calibri, sans-serif; 
+    text-decoration: none;
+    padding: 1em;
+    margin: 1em 1em;
+    float: left;
+
+}
+#linkedin a:hover{
+    color: black;
+}
+
+/* end of index page*/
+/* start bio page*/
+
+#aboutme1{
+    color:black;
+    width: 25%;
+    float: left;
+    position: relative;
+    top: 170px;
+    right: 290px;
+    font-family: "Raleway light", Calibri, sans-serif;  
+    font-size: 35px;
+}
+#aboutme2{
+    color:black;
+    width: 65%;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    margin:0 5% 0 1%;
+    font-family: "Raleway light", Calibri, sans-serif; 
+}
+/* end of bio page*/
+/* start resume page*/
+
+#education{
+    color:black;
+    font-family: "Raleway", Calibri, sans-serif; 
+    float: left;
+    width:50%;
+    position: relative;
+    top: 100px;
+    right: 320px;   
+}
+#skills{
+    color:black;
+    font-family: "Raleway", Calibri, sans-serif; 
+    float: right; 
+    width: 40%;
+    position: relative;
+    bottom: 55px;
+}
+
+#experience{
+    color:black;
+    font-family: "Raleway", Calibri, sans-serif; 
+    float: left;
+    width: 90%;
+    margin: 0 2%;
+    padding: 0 10%;   
+}
+/* end of resume page*/
+/* start portfolio page*/
+
+#peace{
+    color:black;
+    font-family: "Raleway", Calibri, sans-serif; 
+    float: left;
+    margin: 0 2%;
+    padding: 0 10%; 
+}
+#peace_pic{
+    width: auto;
+    text-align: center;
+}
+#room{
+    color:black;
+    font-family: "Raleway", Calibri, sans-serif; 
+    float: left;
+    margin: 0;
+    padding: 0 10%; 
+}
+#room_pic{
+width: auto;
+text-align: center;
+}
+
+/* end of portfolio page*/
