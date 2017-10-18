@@ -1,2 +1,2 @@
-# itmd361_project1
-itmd361 course project 1
+# itmd361_project2
+itmd361 course project 2
