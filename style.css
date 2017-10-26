@@ -91,31 +91,50 @@ footer{
 /* end of bio page*/
 /* start resume page*/
 
+#page{
+    width: 1000px; 
+    margin: 0 auto; 
+}
+#page h2{
+    font-weight: bolder;
+    font-size: 37px;
+    letter-spacing: 2px;
+    display: inline;
+}
+#page h2:hover{
+    text-decoration:line-through;
+}
+#page h3{
+    font-weight: bold;
+    font-size: 23px;
+}
 #education{
     color:black;
     font-family: "Raleway", Calibri, sans-serif; 
     float: left;
     width:50%;
-    position: relative;
-    top: 100px;
-    right: 320px;   
+    padding: 1% 10%;   
+    position: absolute; 
+    top: 20%;
+    right: 30%;
 }
 #skills{
     color:black;
-    font-family: "Raleway", Calibri, sans-serif; 
-    float: right; 
+    font-family: "Raleway", Calibri, sans-serif;     
+    padding: 1% 10%;   
     width: 40%;
-    position: relative;
-    bottom: 55px;
+    position: absolute; 
+    top: 20%;
+    left: 55%;
 }
-
 #experience{
     color:black;
     font-family: "Raleway", Calibri, sans-serif; 
-    float: left;
     width: 90%;
-    margin: 0 2%;
-    padding: 0 10%;   
+    position: absolute; 
+    top: 50%;
+    margin: 0% 2%;
+    padding: 1% 10%;  
 }
 /* end of resume page*/
 /* start portfolio page*/
