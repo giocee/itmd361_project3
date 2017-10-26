@@ -65,7 +65,6 @@ footer{
 #linkedin a:hover{
     color: black;
 }
-
 /* end of index page*/
 /* start bio page*/
 
@@ -145,6 +144,21 @@ footer{
     float: left;
     margin: 0 2%;
     padding: 0 10%; 
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: thin;
+}
+#peace h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#peace figcaption{
+    text-align: right;
+    width: 700px;
+    margin: 0;
+}
+#peace p{
+    font-weight: 400;   
 }
 #peace_pic{
     width: auto;
@@ -157,9 +171,20 @@ footer{
     margin: 0;
     padding: 0 10%; 
 }
+#room h3{
+    font-size: 20px;
+    font-weight: 900;
+}
+#room figcaption{
+    text-align: right;
+    width: 700px;
+    margin: 0;
+}
+#room p{
+    font-weight: 400;   
+}
 #room_pic{
 width: auto;
 text-align: center;
 }
-
 /* end of portfolio page*/
