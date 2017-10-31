@@ -47,14 +47,16 @@ footer{
     position: relative;
     margin: 0;
     bottom: 250px;
-    right: 740px;    
+    right: 500px; 
 }
 #contact{
     color:black;
-    position: absolute;
     font-family: "Raleway", Calibri, sans-serif;
     padding: 1em;
     margin: 1em 1em;
+    position: absolute;
+    top: 37%;
+    left: 3.5%;
     vertical-align: baseline;
 }
 #linkedin a{
@@ -64,8 +66,8 @@ footer{
     padding: 1em;
     margin: 1em 1em;
     position: absolute;
-    top: 42%;
-    left: 0.5%;
+    top: 43%;
+    left: 3.5%;
 }
 #linkedin a:hover{
     color: black;
