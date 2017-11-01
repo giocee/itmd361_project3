@@ -77,13 +77,14 @@ footer{
 
 #aboutme1{
     color:black;
-    width: 25%;
+    width: 24%;
     float: left;
     position: relative;
+    padding: 0 2%;
     top: 170px;
-    right: 290px;
+    right: 320px;
     font-family: "Raleway light", Calibri, sans-serif;  
-    font-size: 35px;
+    font-size: 38px;
 }
 #aboutme2{
     color:black;
