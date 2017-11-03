@@ -104,7 +104,6 @@ footer{
     width: 24%;
     padding: 0 2%;
     float: left;
-    position: relative;
     top: 100px;
     left: 30px;
     font-family: "Raleway light", Calibri, sans-serif;  
@@ -114,7 +113,6 @@ footer{
     color:black;
     width: 65%;
     float: left;
-    position: relative;
     top: 60px;
     margin:0 5% 0 1%;
     font-family: "Raleway light", Calibri, sans-serif; 
