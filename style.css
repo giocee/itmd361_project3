@@ -102,20 +102,20 @@ footer{
 #aboutme1{
     color:black;
     width: 24%;
+    padding: 0 2%;
     float: left;
     position: relative;
-    padding: 0 2%;
-    top: 170px;
-    right: 320px;
+    top: 100px;
+    left: 30px;
     font-family: "Raleway light", Calibri, sans-serif;  
     font-size: 38px;
 }
 #aboutme2{
     color:black;
     width: 65%;
-    float: right;
+    float: left;
     position: relative;
-    bottom: 30px;
+    top: 60px;
     margin:0 5% 0 1%;
     font-family: "Raleway light", Calibri, sans-serif; 
 }
