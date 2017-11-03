@@ -29,7 +29,7 @@ footer{
 }
 /* start index page*/
 
-#intro_nav ul {
+#intronav ul {
     color:black;
     float: left;
     font-family: "Raleway light", Calibri, sans-serif; 
@@ -37,11 +37,11 @@ footer{
     padding: 0;
     margin: 10px 0 0 0;
 }
-#intro_nav ul li {
+#intronav ul li {
     margin: 0 15px;
     float: left;
 }
-#intro_nav ul li a {
+#intronav ul li a {
     display: block;
     clear: left;   
     text-decoration: none;
@@ -49,7 +49,7 @@ footer{
     font-size: 18px;
     padding: 0 15px;
 }
-#intro_nav ul li a:hover{
+#intronav ul li a:hover{
     color: black;
 }
 #wrapper{
