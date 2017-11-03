@@ -1,18 +1,16 @@
-
 #nav ul {
     color:black;
-    float: left;
     font-family: "Raleway light", Calibri, sans-serif; 
     list-style-type:none;
     padding: 0;
     margin: 20px 0 0 0;
+    text-align: center;
 }
 #nav ul li {
     margin: 0 15px;
-    float: left;
+    display: inline-block;
 }
 #nav ul li a {
-    display: block;
     clear: left;   
     text-decoration: none;
     color: darkgray;
