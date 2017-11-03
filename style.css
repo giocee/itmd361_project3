@@ -17,6 +17,7 @@
     text-decoration: none;
     color: darkgray;
     font-size: 18px;
+    padding: 20px;
 }
 #nav ul li a:hover{
     color: black;
@@ -29,6 +30,30 @@ footer{
     clear: left;
 }
 /* start index page*/
+
+#intro_nav ul {
+    color:black;
+    float: left;
+    font-family: "Raleway light", Calibri, sans-serif; 
+    list-style-type:none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+#intro_nav ul li {
+    margin: 0 15px;
+    float: left;
+}
+#intro_nav ul li a {
+    display: block;
+    clear: left;   
+    text-decoration: none;
+    color: darkgray;
+    font-size: 18px;
+    padding: 0 15px;
+}
+#intro_nav ul li a:hover{
+    color: black;
+}
 #wrapper{
     width: 960px;
     margin-left: 2%;
@@ -38,7 +63,7 @@ footer{
 #title{
     color:black;
     font-size: 2.5em;
-    margin: 1em 1em;
+    margin: 1.5em 1em;
     font-family: "Raleway ", Calibri, sans-serif; 
     font-weight: inherit;
 }
@@ -47,7 +72,7 @@ footer{
     position: relative;
     margin: 0;
     bottom: 250px;
-    right: 500px; 
+    right: 495px; 
 }
 #contact{
     color:black;
