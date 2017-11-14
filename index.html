@@ -23,7 +23,7 @@
          </nav>
       </header>
       <section id="light">
-         <img src="media/light.png" alt="lightbulb drawing"> 
+           <img src="light.png"  onclick="lightoff()" alt="lightbulb drawing"> 
       </section>    
       <section id="contact">	
          <p>gcenteno1@hawk.iit.edu</p>
@@ -31,6 +31,13 @@
       <section id="linkedin">
          <p><a href="https://www.linkedin.com/">Let's connect on linkedin</a></p>
       </section>
-   </div>    
+   </div>   
+   <script type="text/javascript">
+    function lightoff(){
+    document.body.style.backgroundColor = "black";
+    document.getElementById("light").src= "lightcopy.png";
+    document.getElementById("title").style.color = "white";
+   }
+   </script> 
 </body>
 </html>
