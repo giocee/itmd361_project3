@@ -216,3 +216,27 @@ width: auto;
 text-align: center;
 }
 /* end of portfolio page*/
+/* start of map page*/
+#map {
+    height:500px;
+    width: 70%;
+    margin: auto;
+}
+#maptitle{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family:"Raleway", Calibri, sans-serif;
+} 
+#mapbody{
+    background-color: seashell;
+}
+#mapwrapper{
+    margin: auto;
+    width: 80%;
+    padding: 5%;
+    background-color: #007BA7;
+    border-style: outset;
+    border-width: thick;
+}
