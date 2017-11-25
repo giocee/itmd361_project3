@@ -70,8 +70,8 @@ footer{
     float: right;
     position: relative;
     margin: 0;
-    bottom: 250px;
-    right: 495px; 
+    bottom: 300px;
+    right: 395px; 
 }
 #contact{
     color:black;
@@ -79,7 +79,7 @@ footer{
     padding: 1em;
     margin: 1em 1em;
     position: absolute;
-    top: 37%;
+    top: 58%;
     left: 3.5%;
     vertical-align: baseline;
 }
@@ -90,7 +90,7 @@ footer{
     padding: 1em;
     margin: 1em 1em;
     position: absolute;
-    top: 43%;
+    top: 65%;
     left: 3.5%;
 }
 #linkedin a:hover{
