@@ -20,7 +20,7 @@ function initMap() {
     var contentString1 ='<h1 id="mom" class="mom">Mom&#39;s House</h1>'+
     '<p>My mom lives here. She is a pretty cool lady.</p>';
 
-    var infowindow = new google.maps.InfoWindow({
+    var infowindow1 = new google.maps.InfoWindow({
     content: contentString1
   });
     marker1.addListener('click', function() {
@@ -34,7 +34,7 @@ function initMap() {
     var contentString2='<h1 id="pierHeading" class="pierHeading">South Pointe Pier</h1>'+
     '<p>Probably one of my most favorite places in the world.</p>';
 
-    var infowindow = new google.maps.InfoWindow({
+    var infowindow2 = new google.maps.InfoWindow({
     content: contentString2
   });
     marker2.addListener('click', function() {
@@ -48,7 +48,7 @@ function initMap() {
     var contentString3 ='<h1 id="wallsHeading" class="wallsHeading">Wynwood Walls</h1>'+
     '<p>Text.</p>';
 
-    var infowindow = new google.maps.InfoWindow({
+    var infowindow3 = new google.maps.InfoWindow({
     content: contentString3
   });
     marker3.addListener('click', function() {
