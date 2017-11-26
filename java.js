@@ -1,4 +1,4 @@
-function initMap() {
+ function initMap() {
   var home = {lat: 25.928588, lng: -80.306304};
   var map = new google.maps.Map(document.getElementById('map'), {
   zoom: 10,
@@ -46,7 +46,7 @@ function initMap() {
     title: "Wynwood Walls"
   });
     var contentString3 ='<h1 id="wallsHeading" class="wallsHeading">Wynwood Walls</h1>'+
-    '<p>Text.</p>';
+    '<p>Curated Graffitti and coffee in the heart of Wynwood.</p>';
 
     var infowindow3 = new google.maps.InfoWindow({
     content: contentString3
