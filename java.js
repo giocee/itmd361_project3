@@ -24,7 +24,7 @@ function initMap() {
     content: contentString1
   });
     marker1.addListener('click', function() {
-    infowindow.open(map, marker1);
+    infowindow1.open(map, marker1);
   });
     var marker2 = new google.maps.Marker({
     position: {lat:25.763799, lng: -80.130219},
@@ -38,7 +38,7 @@ function initMap() {
     content: contentString2
   });
     marker2.addListener('click', function() {
-    infowindow.open(map, marker2);
+    infowindow2.open(map, marker2);
   });
     var marker3 = new google.maps.Marker({
     position: {lat:25.801231, lng: -80.200188},
@@ -52,6 +52,6 @@ function initMap() {
     content: contentString3
   });
     marker3.addListener('click', function() {
-    infowindow.open(map, marker3);
+    infowindow3.open(map, marker3);
   });  
 }
